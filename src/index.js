@@ -11,7 +11,9 @@ var corsOptions = {
   origin: 'https://library-management-system-mern-stack.vercel.app/',
   optionsSuccessStatus: 200 
 }
-
+app.get("/", (req, res)=>{
+  res.json("Hii")
+}
 app.use(cors())
 
 // app.use(bodyParser)
