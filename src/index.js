@@ -8,7 +8,7 @@ const bodyParser= require('body-parser')
 var cors = require('cors')
 app.use(express.json())
 var corsOptions = {
-  origin: 'http://localhost:3000/',
+  origin: 'https://library-management-system-mern-stack.vercel.app/',
   optionsSuccessStatus: 200 
 }
 
